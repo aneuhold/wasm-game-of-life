@@ -1,0 +1,12 @@
+{
+  "name": "wasm-game-of-life",
+  "version": "1.0.0",
+  "scripts": {
+    "i": "yarn && cd client && yarn",
+    "start": "cd client && yarn start"
+  },
+  "repository": "git@github.com:aneuhold/wasm-game-of-life.git",
+  "author": "Anton G. Neuhold Jr. <agneuhold@gmail.com>",
+  "license": "MIT",
+  "private": true
+}

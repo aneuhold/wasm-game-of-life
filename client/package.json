@@ -3,9 +3,6 @@
   "version": "0.1.0",
   "description": "create an app to consume rust-generated wasm packages",
   "main": "index.js",
-  "bin": {
-    "create-wasm-app": ".bin/create-wasm-app.js"
-  },
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "start": "webpack-dev-server"
@@ -20,8 +17,7 @@
     "rust",
     "webpack"
   ],
-  "author": "Ashley Williams <ashley666ashley@gmail.com>",
-  "license": "(MIT OR Apache-2.0)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/rustwasm/create-wasm-app/issues"
   },
