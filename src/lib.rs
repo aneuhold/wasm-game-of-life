@@ -16,5 +16,6 @@ extern {
 /// This is a greeting function
 #[wasm_bindgen]
 pub fn greet() {
-    alert("Hello, wasm-game-of-life!");
+    alert("this is a test 23");
+    alert("Hello, wasm-game-of-life! test");
 }
